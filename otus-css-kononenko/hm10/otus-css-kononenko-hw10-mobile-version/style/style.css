@@ -1,0 +1,1118 @@
+@font-face{
+    font-family: 'Bitter';
+    src: url('./../fonts/Bitter/static/Bitter-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'Bitter';
+    src: url('./../fonts/Bitter/static/Bitter-Light.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Bitter';
+    src: url('./../fonts/Bitter/static/Bitter-Regular.ttf');
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: 'Inter';
+    src: url('./../fonts/Inter/static/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('./../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('./../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+    font-weight: 500;
+}
+
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* 25.12 */
+.about_link_site {
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about_link_header {
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* 25.12 */
+
+  .navigation {
+    display: flex;
+    height: 135px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+  }
+   
+ .navigation-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 55px;
+    flex: 1 0 0;
+  } 
+  
+
+  
+   .navigation-link {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none; 
+  } 
+  
+   .navigation-link:hover {
+    text-decoration: underline;
+
+  } 
+
+
+
+ .main-top {
+    height: 630px;
+    background: url("./../img/mod_studio.jpg") no-repeat center/cover; 
+    position: relative;
+    display: flex;
+   
+  }
+  
+
+  
+ .main-company {
+    padding-top: 1px;
+    background: #FFF;
+    width: 690px;
+    height: 150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 110px 20px; 
+
+  }
+  
+  .main-name {
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  
+
+    .main-suname{
+    margin-top: 14px;
+    font-size: 20px; 
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .biography-main{
+      margin-top: 150px;
+      height: 840px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+    }
+
+    
+    .biography_image {
+      order: -1;
+      max-width: 50%;
+      min-width: 250px;
+      flex-grow: 0;
+      display: flex;
+      height: 100%;
+      overflow: hidden;
+      width: 571px;
+      height: 840px; 
+      
+    }
+
+    .bio_img{
+      /* width: 100%; */
+    object-fit: contain;
+    }
+
+
+    .biography-title{
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: flex-start;
+    writing-mode: vertical-lr;
+    transform-origin: center center;
+    /* transform: rotate(-180deg);
+    margin: 0;
+    width: 9.5%;
+    display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    margin-left: clamp(10px, 4%, 29px);
+    transform: rotate(-180deg);
+    }
+
+
+    .biography-skills{
+      display: inline-block;
+      padding: 0;
+      margin-top: 0;
+      list-style-type: none;
+    }
+
+
+    .biography-person {
+      max-width: 40%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+
+
+    .biography-name{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .biography-job{
+    color: #0D0D0D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .biography-quote{
+    color: #0D0D0D;
+    font-family: Bitter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 18px;
+    }
+
+    .biography-skillslist {
+      font-size: 18px;
+      font-weight: 500;
+      /* padding: 0 0 0 18px; */
+      margin-top: 0;
+      list-style-type: none;
+      color: #0D0D0D;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      
+    }
+
+  
+    .biography-job,
+    .biography-skillslist {
+      color: #0D0D0D;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+ 
+
+    .designers-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 90px 0 0 90px; /*hm7 */
+    }
+
+    .designers-name{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+
+    .designers-job{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .testimonials-about{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+
+    .testimonials-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .testimonials-title{
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .testimonials-quote{
+    color: #000;
+    text-align: center;
+    font-family: Bitter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+/* !!! hm6 */
+
+    .testimonials-container {
+     max-width: 1440px;
+     margin: 0 auto;
+    }
+
+    .testimonials-quote{
+      font-size: 32px;
+      line-height: 1.2;
+      font-family: Bitter;
+      margin: 0;
+    }
+
+    p {
+      display: block;
+      /* margin-block-start: 1em; */
+      /* margin-block-end: 1em; */
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+    .testimonials_atmosphere{
+      background: url("../img/testimonials_atmosphere.jpg") right/cover no-repeat;
+      height: 100%;
+      width: 100%;
+      justify-self: start;
+      order: -1;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .testimonials-about_link {
+      text-decoration: none;
+      color: black;
+      /* display: flex; */
+      /* 25.12. */
+      transform: rotate(-90deg);
+    }
+
+    .testimonials-about_link:hover {
+      text-decoration: underline;
+    }
+
+     .about_link_header about_link_site{
+      height: 190px;
+      /* width: 49px; */
+      margin: 0;
+      writing-mode: vertical-lr;
+      transform: rotate(-180deg);
+    }
+
+
+
+    .testimonials-title{
+      writing-mode: vertical-lr;
+      transform-origin: center center;
+      transform: rotate(-180deg);
+      margin: 0;
+    }
+
+
+.testimonials {
+  height: 760px;
+  padding-left: 119px;
+  display: grid;
+  grid-template-columns: 98px 32% 10% auto;
+  gap:24px
+}
+
+.testimonials-header {
+  /* width: 28px;
+  margin-left: 24px; */
+}
+
+.testimonials-title {
+  max-width: none;
+  width: 28px;
+}
+
+.testimonials .testimonials-about {
+  margin: 0;
+  list-style: none;
+  order: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.testimonials-about_item {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.testimonials-about_item:hover {
+  text-decoration: underline;
+}
+
+.testimonials-about_item about_link_header about_link_site{
+  height: 190px;
+  margin: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+
+
+.overview-image {
+  background: url("../img/testimonials-section-image.jpg") right/cover no-repeat;
+  height: 760px;
+  width: 451px;
+  justify-self: start;
+  order: -1;
+  object-fit: contain;
+}
+
+.testimonials-content {
+  display: flex;
+  /* width: 451px; */
+  height: 760px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  flex-shrink: 0;
+}
+
+.testimonials-content_quote {
+  width: 221px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* !!!! hm6 */
+
+
+/* !!!! hm7 */
+.designers-container {
+  /* max-width: 1420px; */ 
+  margin: 0px 20px 10.4% 20px;
+  /* margin: 0 auto; */
+}
+
+.desingner_text {
+  margin-top: 24px;
+  width: 337px;
+  align-self: flex-end;
+}
+
+.desingners{
+   overflow-x: auto; 
+}
+
+.desingner-gallery{
+display: flex;
+gap: 20px;
+align-items: end;
+}
+
+.desingner_info{
+  font-size: 16px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.desingner_image{
+  width: 100%;
+  /* position: relative; */
+  left: 50%;
+  top: 50%;
+  /* transform: translate(-50%, -50%); */
+  object-fit: cover;
+}
+
+.image_block{
+/* height: 660px; */
+}
+/* !!!! hm7 */
+
+/* !!!! hm8 */
+
+
+
+.strongPoints-gallery {
+  margin-top: 0px;
+  padding: 0 20px 10px;
+}
+
+ .strongPoints-gallery-img{
+  /* height: 440px;
+  width: 335px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20px;
+  gap: 20px;
+  overflow-x: auto;
+  
+} 
+
+.strongPoints-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
+.strongPoints-menu {
+  justify-content: start;
+  /* width: 450px; */
+  font-size: 16px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.strong-points {
+  /* height: 613px; */
+  margin-top: 150px;
+}
+
+
+.strong-points-container{
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  height: 100%;
+}
+
+@supports (display: grid) {
+ .strongPoints-gallery-img {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 335px) 451px 335px;
+    overflow-x: auto;
+  }
+}
+
+  .strongPoints-title2{
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 86px;
+  margin: 0 auto;
+  line-height: 1;
+
+}
+/* !!!! hm8 */
+
+    .strongPoints-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ 
+    }
+
+    .strongPoints-menu{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 86px */
+    }
+
+    .strongPoints-link{
+    color: #000;
+    font-family: Bitter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 28px;
+    margin-left: 117px;
+    padding: 0;
+    list-style-type: none;
+    }
+
+    .disk {
+
+      width: 20px;
+      height: 6px;
+      background-color: #0d0d0d;
+    }
+
+
+/* !!!! hm9 */
+    @media screen and (width < 1207px) {
+
+      .testimonials {
+        height: 760px;
+        padding-left: 11px; 
+        display: grid;
+        grid-template-columns: 98px 32% 10% auto;
+        /* gap:24px */
+      }
+
+      .testimonials-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      .bio_img{
+        object-fit: contain;
+        height: 100%;
+        justify-self: start;
+        max-height: 100%;
+        object-fit: contain;
+        }
+
+
+    }
+    
+/* !!!! hm9 */
+
+/* !!!! hm11 */
+
+ul {
+  position: relative;
+}
+
+
+ul:hover li a {
+  color: #0002;
+}
+ul li:hover a {
+  color: #000;
+  background: transparent;
+}
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  /* font-weight: 50%; */
+  text-transform: uppercase;
+  /* letter-spacing: 50%; */
+  transition: letter-spacing 0.5s, left 0.5s;
+}
+ul li a:hover:before {
+  content: attr(data-text);
+  opacity: 1;
+  left: 50%;
+  letter-spacing: 10px;
+  width: 100%;
+  height: 100%;
+}
+ul li:nth-child(6n + 1) a:before {
+  background: #0470fe;
+}
+ul li:nth-child(6n + 2) a:before {
+  background: #ff7675;
+}
+
+ul li:nth-child(6n + 3) a:before {
+  background: #a29bfe;
+}
+
+ul li:nth-child(6n + 4) a:before {
+  background: #abfe9b;
+}
+
+
+
+
+.testimonials-animation:hover {
+  display: inline-block; 
+  overflow: hidden; 
+  transition: 1s; 
+  display: block; 
+  transform: scale(1.3); 
+ }
+
+
+
+
+/* !!!! hm11 */
+
+/* !!!! hm10 */
+
+
+@media screen and (max-width: 600px) {
+
+  .designers-container .strong-points-container .testimonials-container .main-top{
+    min-width: 350px;
+    max-width: none;
+    margin: 0 auto;
+  }
+
+
+  body{
+    position: relative;
+    height: 100%;
+    padding-bottom: 82px;
+}
+.navigation {
+    min-height: 82px;
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+}
+.navigation-list{
+    justify-content: center;
+}
+
+.navigation-link{
+    font-size: 40px;
+    font-family: Bitter;
+    font-weight: 400;
+}
+.main-top{
+    height: 764px;
+    width: 100%;
+    background: url(../img/mod_studio_lite.png) no-repeat bottom center/cover;
+}    
+.main-company{
+  align-self: start;
+  padding: 100px 32px;
+  width: 100%;
+  margin: 0;
+}
+.main-name{
+  font-weight: 400;
+  font-size: 70px;
+}
+.main-suname{
+  font-size: 18px;
+}
+/* <!-- Биография --> */
+  .biography-main {
+    margin-top: 80px;
+    height: 100%;
+    display: flex;
+    /* padding: 0 min(10%, 137px); */
+    position: relative;
+  }
+
+  .biography-title {
+    width: 100%;
+    position: absolute;
+  }
+
+  .biography_image {
+  order: -1;
+  max-width: 100%;
+  height: 450px;
+  min-width: auto;
+  overflow: hidden;
+  }
+
+  .bio_img {
+    display: block;
+  height: 100%;
+  object-fit: cover;
+  }
+
+  .biography-person {
+    max-width: none;
+    /* width: 100%; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
+  .biography-name {
+    font-size: 64px;
+    font-weight: 400;
+    margin: 41px auto 41px 18px;
+  }
+
+   /* .person__name::before {
+    content: "- ";
+    font-size: 64px;
+    font-weight: 400;
+  } */
+  .biography-name br {
+    display: none;
+  } 
+
+  .biography-job, .biography-skillslist{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .biography-job-skill {
+    order: 3;
+    padding: 0px 0px;
+  }
+
+  .biography-skillslis {
+    order: 1;
+    margin-top: 0;
+    list-style-type: none;
+  }
+
+  .biography-quote {
+    margin: 57px 15px 0;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .biography-skills {
+    display: block;
+  }
+
+/* <!-- фБиография --> */
+
+
+
+
+
+
+/* !!!! disigners-container */
+.desingner_image {
+min-height: 437px;
+max-width: 310px;
+
+}
+.designers-title{
+  margin:50px 0 30px 0
+}
+
+
+/* ______ disigners-container */
+
+
+/* <!-- Наши работы -->    */
+
+.strongPoints-menu {
+  order: -1;
+  width: 201px;
+}
+
+.strongPoints-link {
+  font-size: 24px;
+}
+.strongPoints-link {
+  margin-left: 0px
+}
+
+.strongPoints-title2 {
+  font-size: 46px;
+}
+
+.strongPoints-gallery-img {
+  grid-template-columns: 202px 310px 310px 310px 
+}
+
+.strongPoints-title {
+    margin: 50px 0 30px 20px;
+}
+
+/* <!-- Наши работы -->    */
+/* <!-- навигация -->    */
+.navigation-block{
+  display: none;
+}
+  
+
+/* <!-- навигация -->    */
+
+
+/* <!-- Био -->    */
+
+
+.biography-main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.biography-title {
+  top: 0;
+  right: 16px;
+  writing-mode: horizontal-tb;
+  transform: rotate(0deg) translateX(0px);
+  order: 3;
+  text-align:right;
+  
+}
+
+
+.biography_image {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  height: 400px;
+}
+
+.biography-name {
+  margin: 0 0 0 0;
+  font-size: 60px;
+}
+.biography-job .biography-skillslist br {
+  display: none;
+}
+.biography-skills::before {
+  content: "-";
+}
+.biography-skillslist {
+  order: 1;
+  width: 200px;
+}
+.biography-quote {
+  order: 2;
+  margin-bottom: 72px;
+}
+.biography-name::before {
+  content: "-";
+}
+
+.disk {
+display: none;
+}
+
+
+
+/* <!-- Био -->    */
+
+
+/* <!-- Рекомендации --> */
+
+.testimonials {
+  margin-top: 80px;
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  padding: 0 16px;
+  order:unset;
+  order:2;
+}
+
+.testimonials-header {
+  order: -1;
+  height: auto;
+  width: auto;
+  margin-right: 16px;
+  width: 100%;
+}
+
+.testimonials-title{
+height: 100px;
+position: absolute;
+/* transform: rotate(-90deg); */
+margin-left: 24px;
+order: -1;
+margin-right: 16px;
+/* writing-mode: none; */
+}
+
+.testimonials .testimonials-about{
+  transform: none;
+  order: 2;
+  justify-self: start;
+  grid-template-columns: 1fr 1fr;
+  /* width: 100%; */
+  gap: 25px;
+}
+
+.testimonials .testimonials-about {
+  flex-direction:row;
+  transform: none;
+  flex-wrap: wrap;
+  justify-content:left;
+}
+
+
+
+.strongPoints-gallery {
+  padding: 0;
+}
+
+
+.testimonials-title {
+  writing-mode: horizontal-tb;
+  transform-origin: center center;
+  transform: none;
+  margin: 0;
+}
+
+.testimonials-about_item about_link_header about_link_site{
+  display: block;
+  height: 100%;
+  margin: 0;
+  writing-mode: horizontal-tb;
+  transform: none;
+  
+}
+
+.about_link_header about_link_site{
+  height: 100%; 
+  /* width: 49px; */
+  margin: 0;
+  writing-mode: horizontal-tb;
+  transform: none;
+}
+
+
+.testimonials-about_link {
+  transform: none;
+}
+
+.testimonials-image {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    height: 400px;
+}
+
+
+/* justify-content: space-around; */
+
+
+/* <!-- Рекомендации --> */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !!!! hm10 */
